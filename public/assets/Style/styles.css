@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #6C584C;
+}
+nav{
+    background-color: #aec178c8;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px 0 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 1085px;
+}
+nav ul li{
+    padding: 30px ;
+}
+nav ul a{
+    text-decoration: none;
+    list-style: none;
+    color: #6C584C;
+}
+#logo{
+    margin-top: 15px;
+}
+#logo2{
+    margin-top: 5px;
+}
+main{
+    background-color: #FEFAE0;
+    padding: 150px 20px 50px 80px;
+}
+main .search{
+    background-image: url('img/Rectangle\ 33.png');
+    width: 1353px;
+    height: 459px;
+    position: relative;
+}
+#src{
+    position: absolute;
+    top: 200px;
+    left: 320px;
+    margin: auto;
+}
+.search p{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+}
+main h2{
+    margin: 20px 0;
+}
+.recomend{
+    display: flex;
+    justify-content: space-around;
+}
+.recomend .card{
+    position: relative;
+}
+.recomend .card img{
+    position: absolute;
+    top: 0;
+    left: -230px;
+    width: 401px;
+    height: 247px;
+}
+.recomend .card p{
+    position: absolute;
+    top: 200px;
+    left: -200px;
+    width: 401px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+   
+}
+#eventmain{
+    height: auto;
+}
+#event{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -130px;
+}
+#event a{
+    text-decoration: none;
+    color: #6C584C;
+    font-size: 30px;
+    font-weight: 500;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -80px;
+    margin-top: 20px;
+}
+.calendar{
+    width: 50%;
+}
+.sch{
+    width: 60%;
+}
+.sch-card{
+    padding: 10px 20px;
+    background-color: #E7E7E7;
+    width: 748px;
+    height: 304px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.date{
+    width: 50%;
+    margin-left: -30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.date p{
+    height: 33px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.date > div{
+    display: flex;
+}
+.details{
+    color: #9A8679;
+    font-size: 25px;
+    font-weight: 600;
+    width: 80%;
+    margin-bottom: 10px;
+}
+.book{
+    display: flex;
+}
+#date{
+    font-size: 25px;
+    color: #9A8679;
+}
+.book p{
+    margin-right: 35px;
+    font-size: 28px;
+    font-weight: 600;
+}
+.book a{
+    font-size: 25px;
+    color: #B1A39B;
+    margin-right: 50px;
+}
+.book button{
+    background-color: #6C584C;
+    color: #FEFAE0;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 26px;
+}
+#add{
+    display: flex;
+    justify-content: end;
+    margin-top: -130px;
+}
+#logo-add{
+    float: right;
+}
+.cont{
+    display: flex;
+    margin-top: 50px;
+}
+.cont .left img{
+ width: 324px;
+ height: 443px;
+
+}
+.right > div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.lokasi{
+    display: flex;
+    font-weight: 600;
+}
+.lokasi img{
+    margin-left: -10px;
+}
+.lokasi p{
+    margin-top: 10px;
+    width: 500px;
+}
+.edit{
+    margin-top: 10px;
+}
+.card-add{
+    background-color: #E7E7E7;
+    border:1px solid #9A8679;
+    color: #6C584C;
+    width: 1320px;
+    height: 58px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-weight: 500;
+
+}
+.card-add img{
+    width: 92px;
+    height: 29px;
+}
+.package{
+    margin-left: 45px;
+    margin-top: -80px;
+}
+.card-tambah{
+    background-color: #E7E7E7;
+    border:1px solid #9A8679;
+    color: #6C584C;
+    width: 1320px;
+    height: 58px;
+    border-radius: 10px;
+    display: flex;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-bottom: 15px;
+}
+.card-tambah p{
+    line-height: 53px;
+}
+#tambah{
+    width: 41px;
+    height: 49px;
+    margin-right: 25px;
+}
+.pesanan{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    margin-left: 50px;
+}
+.pesanan h2{
+    text-align: center;
+}
+#pesan{
+    justify-content: space-between;
+}
+.user{
+    display: flex;
+}
+.user p{
+    line-height: 90px;
+    margin-left: 20px;
+}
+.card-pesan{
+    width: 403px;
+    height: 305px;
+    background-color: #E7E7E7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 0.5px #6C584C;
+    font-size: 17px;
+}
+.card-pesan table tr{
+    height: 10px;
+}
+.card-pesan h3{
+    margin-bottom: 30px;
+}
+.card-pesan button{
+    background-color: #6C584C;
+    color: #FEFAE0;
+    padding: 5px 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 120px;
+}

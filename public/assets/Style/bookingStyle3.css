@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@300&display=swap');
+
+body{
+	background-color: #FEFAE0;
+	font-family: 'Poppins', sans-serif;
+	margin: 0 0 30px 0;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+	background-color: #FEFAE0;
+	width: auto;
+	height: 80px;
+	margin-bottom: 20px;
+}
+nav{
+	order: 1;
+	display: inline-block;
+}
+h4{
+	font-weight: 600;
+	font-size: 22px;
+	color: #6C584C;
+}
+.logo{
+	cursor: pointer;
+	order: 3;
+	margin-left: auto;
+}
+.cta{
+	margin-right: 15px;
+	margin-top: -10px;
+}
+
+.leftside, .rightside{
+	height: auto;
+	width: 100%;
+}
+
+
+h6{
+	color: #9A8679;
+	font-weight: 400;
+	font-size: 18px;
+	letter-spacing: -0.408px;
+
+}
+h5{
+	font-weight: 600;
+	font-size: 17px;
+	letter-spacing: -0.408px;
+	color: #6C584C;
+}
+
+.form-control{
+	margin-bottom: 10px;
+	width: 520px;
+	height: 35px;
+	border-radius: 0px;
+}
+
+.btn{
+	margin-top: 10px;
+	width: 520px;
+	height: 38px;
+	background: #6C584C;
+	border-radius: 0px;
+	font-weight: 600;
+	font-size: 18px;
+	color: #FEFAE0;
+}
+.btn:hover{
+	background: #56483F;
+	border-radius: 0px;
+	font-weight: 600;
+	font-size: 18px;
+	color: #FEFAE0;
+}
+
+.form-select{
+	width: 520px;
+	border-radius: 0px;
+	margin-bottom: 10px;
+}
+.detail{
+	margin-top: 30px;
+}
+
+.card{
+	background: rgba(231, 231, 231, 0.5);
+	border-radius: 10px;
+	width: 520px;
+	margin-bottom: 20px;
+}
+.body1, .body2, .body3{
+	display: flex;
+}
+
+p{
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: -0.408px;
+	color: #9A8679;
+}
+
+.body3 p {
+	letter-spacing: -0.408px;
+	color: #6C584C;
+	font-weight: 500;
+}
+.totalPay{
+	margin-top: 30px;
+}
