@@ -74,7 +74,7 @@ class PartnerController extends Controller
         $user->fill([$level, $business_name, $business_location, $business_description, $business_phone_number, $business_email]);
         $request->session()->put('user', $user);
         $user->save();
-        return redirect("/");
+        return view('partner.index');
     }
 }
 

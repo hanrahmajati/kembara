@@ -15,6 +15,29 @@ class Controller extends BaseController
         return view('user.index');
     }
 
+    public function destinasi(){
+        return view('user.destinasi');
+    }
+
+    public function blogs(){
+        return view('user.blogs');
+    }
+
+    public function blog(){
+        return view('user.blog');
+    }
+
+    public function eventCalendar(){
+        return view('user.eventCalendar');
+    }
+
+    public function shop(){
+        return view('user.shop');
+    }
+
+    public function insight(){
+        return view('user.insight');
+    }
     public function indexAdmin(){
         return view('admin.index');
     }

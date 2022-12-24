@@ -115,3 +115,11 @@ p{
 .totalPay{
 	margin-top: 30px;
 }
+
+.guest-details .form-control {
+	margin-bottom: 0px;
+}
+
+.guest-details h6 {
+	margin-top: 5px;
+}

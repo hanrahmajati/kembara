@@ -36,6 +36,12 @@ Route::group(['middleware' => ['is_partner']], function() {
 //user
 Route::group(['middleware' => ['is_user']], function() {
 Route::get('user/home', [Controller ::class, 'index'])->name('user.index');
+Route::get('user/destinasi', [Controller ::class, 'destinasi'])->name('user.destinasi');
+Route::get('user/blogs', [Controller ::class, 'blogs'])->name('user.blogs');
+Route::get('user/blog', [Controller ::class, 'blog'])->name('user.blog');
+Route::get('user/eventCalendar', [Controller ::class, 'eventCalendar'])->name('user.eventCalendar');
+Route::get('user/shop', [Controller ::class, 'shop'])->name('user.shop');
+Route::get('user/insight', [Controller ::class, 'insight'])->name('user.insight');
 });
 
 //admin

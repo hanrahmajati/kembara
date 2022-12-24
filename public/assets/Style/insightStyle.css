@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@300&display=swap');
+
+body{
+	background-color: #FEFAE0;
+	font-family: 'Poppins', sans-serif;
+	margin: 0 0 30px 0;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+	background-color: #FEFAE0;
+	width: auto;
+	height: 80px;
+	margin-bottom: 10px;
+}
+h4{
+	font-weight: 600;
+	font-size: 22px;
+	color: #6C584C;
+}
+.logo{
+	cursor: pointer;
+	order: 4;
+	margin-left: 20px;
+}
+
+nav{
+	order: 2;
+}
+.cta{
+	order: 1;
+	margin-right: 15px;
+	margin-top: -10px;
+}
+
+.search-box{
+	display: flex;
+	align-items: center;
+	background: rgba(217, 217, 217, 0.5);
+	padding: 8px 16px;
+	border-radius: 100px;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+	height: 35px;
+	width: 340px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	order:3;
+}
+
+.search-box .search-input{
+	transition: .5s;
+}
+
+.search-input .input{
+	border: none;
+	outline: none;
+	background-color: unset;
+	padding: 8px;
+}
+
+.search-box:hover .search-input{
+	width: 200px;
+}
+.judul{
+	color: #606C38;
+	font-family: 'Lato';
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+h1{
+	font-size: 38px;
+	font-weight: 700;
+}
+
+.leftside, .rightside{
+	height: auto;
+}
+.leftside{
+	width: 650px;
+}
+
+center{
+	margin-top: 20px;
+}
+p{
+	font-family: 'Poppins';
+	font-weight: 400;
+	font-size: 18px;
+	color: #000000;
+	text-align: justify;
+}
+.card{
+	background: rgba(231, 231, 231, 0.5);
+	border-radius: 10px;
+	width: auto;
+	margin-bottom: 20px;
+}
+h5{
+	font-weight: 600;
+	font-size: 20px;
+	letter-spacing: -0.408px;
+	color: black;
+}
+.body1{
+	display: flex;
+}
+.body1 p{
+	font-size: 15px;
+}
+.isi{
+	margin:  10px 20px;
+}
+.desc{
+	margin-bottom: 45px;
+}
+a{
+	text-decoration: none;
+	font-family: 'Poppins';
+	font-weight: 600;
+	font-size: 20px;
+	color: #6C584C;
+}
+a:hover{
+	color: #8F7363
+}
