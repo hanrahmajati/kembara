@@ -173,11 +173,12 @@ main h2{
 }
 #add{
     display: flex;
-    justify-content: end;
     margin-top: -130px;
 }
 #logo-add{
     float: right;
+    margin-right: 0;
+    margin-left:80%;
 }
 .cont{
     display: flex;
